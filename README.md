@@ -41,6 +41,7 @@ Picture2
   public Conference conferenceTable(){...}
  }
  ```
+For above example , We use Single-Responsibility Principle. So Picture2 is better code and easyier to understand.
 
 Exercise : https://github.com/nongjamie/codeguide/blob/master/src/Exercise2.java
 
