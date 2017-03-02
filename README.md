@@ -1,6 +1,6 @@
 #codeguide
 
-##Programming for interface Priciple
+##Programming for interface Principle
 
 We declare a variable that has a behavior declared in the interface.<br>Declare variable of type of interface gives us more flexibility.If later we decide to switch to a different implementation of that interface.<br>We won't need to change the type of the variable.
   ```java
@@ -17,6 +17,30 @@ Exercise : https://github.com/nongjamie/codeguide/blob/master/src/Exercise1.java
 Reference : https://yakovfain.com/2014/10/26/programming-to-interfaces-in-java/
 
 ##The Single-Responsibility Principle
+
+A class should have only one reason to change.
+
+Picture1
+ ```java
+ public class Businessman{
+  public Money investStocks(){...}
+  public Money calculatePay(){...}
+  public Conference conferenceTable(){...}
+ }
+ ```
+
+Picture2
+ ```java
+ public class Businessman{
+  public Money investStocks(){...}
+ }
+ public class Employee{
+  public Money calculatePay(){...}
+ }
+ public class Secretory{
+  public Conference conferenceTable(){...}
+ }
+ ```
 
 Exercise : https://github.com/nongjamie/codeguide/blob/master/src/Exercise2.java
 
