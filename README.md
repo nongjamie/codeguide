@@ -13,9 +13,11 @@ List<Customer> customers = new ArrayList<Customer>();
 From this example If later we decide to switch to a different implementation of the List (e.g. LinkedList instead of ArrayList ) we won’t need to change the type of the variable customers.
 
 Exercise : https://github.com/nongjamie/codeguide/blob/master/src/Exercise1.java
+
 Reference : https://yakovfain.com/2014/10/26/programming-to-interfaces-in-java/
 
 ##The Single-Responsibility Principle
 
 Exercise : https://github.com/nongjamie/codeguide/blob/master/src/Exercise2.java
+
 Reference : Agile Software Development by Robert C Martin.
