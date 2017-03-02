@@ -1,5 +1,5 @@
 /**
- * Exercise1 for The Don’t Repeat Yourself Principle.
+ * Exercise1 for The Programming for interface Principle.
  * @author Sathira Kittisukmongkol.
  */
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class Exercise1 {
 		/* To control the while loop. */
 		boolean control = true;
 		
-		// T0D0 Make the code be shorter.
+		// T0D0 Make the code be shorter by create interface.
 		while(control) {
 			System.out.print( "(1)Doraemon / (2)Doraeme / (3)quit : " );
 			int choice = Integer.parseInt(input.nextLine());
